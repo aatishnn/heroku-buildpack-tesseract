@@ -6,8 +6,8 @@ BUILD_PATH=/tmp
 ###############
 #  TESSEDATA  #
 ###############
-mkdir -p $BUILD_DIR/vendor/share
-wget "https://github.com/tesseract-ocr/tessdata/blob/3.04.00/san.traineddata?raw=true" -O $BUILD_DIR/vendor/share/san.traineddata
+mkdir -p $BUILD_DIR/vendor/share/tessdata
+wget "https://github.com/tesseract-ocr/tessdata/blob/3.04.00/san.traineddata?raw=true" -O $BUILD_DIR/vendor/share/tessdata/san.traineddata
 
 
 # export TESSDATA_PREFIX
