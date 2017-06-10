@@ -9,7 +9,7 @@ BUILD_PATH=/tmp
 mkdir -p $BUILD_DIR/vendor/share/tessdata
 wget "https://github.com/tesseract-ocr/tessdata/blob/3.04.00/eng.traineddata?raw=true" -O $BUILD_DIR/vendor/share/tessdata/eng.traineddata
 wget "https://github.com/tesseract-ocr/tessdata/blob/3.04.00/san.traineddata?raw=true" -O $BUILD_DIR/vendor/share/tessdata/san.traineddata
-
+wget "https://github.com/tesseract-ocr/tessdata/blob/3.04.00/hin.traineddata?raw=true" -O $BUILD_DIR/vendor/share/tessdata/hin.traineddata
 
 # export TESSDATA_PREFIX
 echo "Building runtime environment"
